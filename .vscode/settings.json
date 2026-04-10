@@ -1,0 +1,60 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "vector": "cpp"
+    },
+
+    "workbench.colorTheme": "Dark+",
+
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+    "workbench.colorCustomizations": {
+        "editor.background": "#0d0d0d",
+        "sideBar.background": "#0d0d0d",
+        "activityBar.background": "#0d0d0d",
+        "statusBar.background": "#0d0d0d"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword",
+                "settings": {
+                    "foreground": "#ff7b72"
+                }
+            },
+            {
+                "scope": "string",
+                "settings": {
+                    "foreground": "#a5d6ff"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "foreground": "#79c0ff"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#d2a8ff"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#ffa657"
+                }
+            }
+        ]
+    }
+}

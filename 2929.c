@@ -1,0 +1,91 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <string.h> 
+
+typedef struct nodo {
+    int inf; 
+    struct nodo * next;
+}NODO; 
+
+typedef NODO * PILHA_ORD; 
+
+void cria_pilha (PILHA_ORD *p){
+    *p = NULL; 
+}
+
+int eh_vazia (PILHA_ORD p){
+    return (!p);
+}
+
+int tam (PILHA_ORD p){
+    int cont = 0; 
+    while(p){
+        cont++; 
+        p = p->next; 
+    }
+    return cont;
+}
+
+void push (PILHA_ORD *p, int v){
+    NODO *novo; 
+    novo = (NODO*)malloc(sizeof(NODO));
+    if(!novo){
+        printf("Erro na alocacao!\n");
+        exit(1);
+    }
+    novo->inf = v; 
+    novo->next = *p; 
+    *p = novo; 
+}
+
+void pop (PILHA_ORD *p){
+    if(!*p)
+        printf("EMPTY\n");    
+    else{
+        NODO *a = *p; 
+        *p = (*p)->next; 
+        free(a);   
+    }
+}
+
+
+int menor (PILHA_ORD p){        
+    if(!p)        
+        return -1;    
+    else{
+        int menor = p->inf;
+        while(p){
+            if(p->inf < menor)
+                menor = p->inf; 
+            p = p->next; 
+        }
+        return menor;
+    }
+    
+
+}
+
+int main () {
+    int n;    
+    scanf("%d", &n);
+    PILHA_ORD p; 
+    cria_pilha (&p);
+    while(n--){        
+        int nmb; 
+        char s[5];
+        scanf("%s", s);
+        if(!strcmp("PUSH", s)){
+            scanf("%d", &nmb);
+            push(&p, nmb);            
+        }
+        else if(!strcmp("POP", s))
+            pop(&p);
+        else{
+            int i = menor(p);
+            if(i == -1)
+                printf("EMPTY\n");
+            else 
+                printf("%d\n", menor(p));
+        }
+    }
+}
