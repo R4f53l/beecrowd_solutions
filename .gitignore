@@ -1,0 +1,14 @@
+# executáveis
+*.exe
+*.out
+*.app
+
+# objetos
+*.o
+*.obj
+
+# arquivos temporários
+*.log
+*.tmp
+
+.vscode/
