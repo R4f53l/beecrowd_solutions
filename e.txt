@@ -1,31 +1,32 @@
-15
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-aa
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-ba
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-text
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-the
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-is
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-are
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-ab
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-bombs
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-to
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-that
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-is
-is aa pattern in aa word in the text aa key to deactivate aa bomb that is about to explode the each planet ac aa
-deactivate
-ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag
-ab
-ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag
-ag
-ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag ab ac ad ae af ag
-aj
+2
+3
+5 1 2 3 4 5
+6 2 3 4 5 6 7
+1 52
+4
+1 1 3
+1 1 2
+2 1 3
+2 1 2
+10
+5 4 23 17 2 5
+3 10 20 30
+4 1 2 3 4
+12 1 2 3 4 5 6 7 8 9 10 11 12
+12 5 10 15 20 25 30 35 40 45 50 55 60
+1 7
+1 8
+6 41 42 43 44 45 46
+5 60 59 58 44 45
+2 2 3
+10
+1 2 5
+1 6 7
+1 1 10
+2 4 5
+2 5 6
+2 8 5
+1 3 10
+1 4 3
+2 9 10
+2 9 1
