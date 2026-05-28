@@ -1,4 +1,9 @@
-O Sport nao foi o campeao. O time campeao foi o Fortaleza com 80 pontos :(
+Instacia 1
+SIM
 
-O Sport nao foi o campeao. O time campeao foi o Bahia com 59 pontos :(
+Instacia 2
+NAO
+
+Instacia 3
+NAO
 
